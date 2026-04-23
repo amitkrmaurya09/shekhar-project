@@ -84,40 +84,7 @@ cd frontend
 npm install
 ```
 
-If project not created yet:
 
-```bash
-npx create-react-app frontend
-cd frontend
-npm install axios
-```
-
----
-
-### 3️⃣ Install Tailwind CSS
-
-```bash
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
-```
-
-Update `tailwind.config.js`:
-
-```js
-content: ["./src/**/*.{js,jsx}"],
-```
-
----
-
-### 4️⃣ Add Tailwind to CSS
-
-In `src/index.css`:
-
-```css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-```
 
 ---
 
